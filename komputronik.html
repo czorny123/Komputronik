@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produkt niedostępny</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 50px;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        h1 {
+            color: #ff0000;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <script>
+        function openLink200Times() {
+            for (let i = 0; i < 200; i++) {
+                window.open('https://www.youtube.com/watch?v=3ExGuHWdXCE', '_blank');
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Produkt niedostępny</h1>
+        <p>Przepraszamy, ten produkt jest obecnie niedostępny.</p>
+        <button onclick="openLink200Times()">Wróć do strony głównej</button>
+    </div>
+
+</body>
+</html>
